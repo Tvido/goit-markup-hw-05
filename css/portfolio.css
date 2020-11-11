@@ -137,6 +137,24 @@ img {
   color: var(--accent-cl);
 }
 
+.site-nav-item {
+  position: relative;
+}
+
+.site-nav-link:hover::after,
+.current::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+
+  margin-top: 28px;
+
+  background: var(--accent-cl);
+  border-radius: 2px;
+}
+
 .contacts-item-svg {
   width: 16px;
   height: 12px;
