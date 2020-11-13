@@ -109,7 +109,7 @@ img {
 ========================*/
 
 .page-header {
-  transition-duration: 1000ms;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -150,11 +150,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .site-nav-link:hover,
 .site-nav .site-nav-link:focus {
   color: var(--accent-cl);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .site-nav-link.current {
@@ -166,7 +170,7 @@ img {
   transition-duration: 1000ms;
 }
 
-.site-nav-link:hover::after,
+.current:hover::after,
 .current::after {
   content: "";
   display: block;
@@ -178,12 +182,20 @@ img {
 
   background: var(--accent-cl);
   border-radius: 2px;
+  transition-duration: 1000ms;
+}
+
+.contacts-item {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item-svg {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*============ контакти хедер ============*/
@@ -406,12 +418,16 @@ img {
   height: 44px;
   /* background-color: var(--dark-bg-cl); */
   border-radius: 50%;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-svg {
   width: 20px;
   height: 20px;
   fill: var(--primary-text-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover .social-icons-svg,
@@ -517,7 +533,7 @@ img {
   letter-spacing: 0.06em;
   text-decoration: none;
 
-  transition-duration: 500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -565,12 +581,16 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons-svg {
   /* width: 44px; */
   height: 44px;
   fill: var(--primary-text-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons-link:hover .clients-icons-svg,
@@ -628,16 +648,22 @@ img {
   font-family: inherit;
   color: var(--primary-white-color);
   text-decoration: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address .contact {
   display: block;
   margin-top: 9px;
   color: var(--address);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address :hover,
 .footer-address :focus {
   color: var(--accent-cl);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -689,9 +715,16 @@ img {
   fill: var(--primary-white-color);
 }
 
+.footer-social-link {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-cl);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* *********modal
