@@ -107,6 +107,11 @@ img {
 
 /*============ Навігація 
 ========================*/
+
+.page-header {
+  transition-duration: 1000ms;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -158,6 +163,7 @@ img {
 
 .site-nav-item {
   position: relative;
+  transition-duration: 1000ms;
 }
 
 .site-nav-link:hover::after,
@@ -412,6 +418,7 @@ img {
 .social-icons-link:focus .social-icons-svg {
   fill: var(--primary-white-color);
 }
+
 .social-icons-link:hover,
 .social-icons-link:focus {
   background-color: var(--accent-cl);
@@ -509,6 +516,9 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
+
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -689,6 +699,10 @@ img {
 
 .backdrop {
   position: fixed;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -699,6 +713,7 @@ img {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .modal {
@@ -729,4 +744,10 @@ img {
   border-radius: 50%;
 
   box-sizing: border-box;
+}
+
+.backdrop-modal {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
