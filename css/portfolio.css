@@ -320,7 +320,6 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 500ms;
 }
 
 .cargo-thumb-discription {
@@ -339,7 +338,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 
-  transition: 500ms;
+  transition: 250ms;
 }
 
 .cargo-item:hover .cargo-thumb-discription,
