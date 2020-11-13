@@ -361,12 +361,6 @@ img {
   flex-wrap: wrap;
 }
 
-.work-item:after {
-  content: "";
-  width: auto;
-  height: 70px;
-}
-
 .work-item {
   margin-right: 30px;
 }
@@ -389,21 +383,6 @@ img {
   line-height: 1.167;
   text-align: center;
   color: var(--secondary-text-color);
-}
-
-.work-thumb {
-  position: relative;
-}
-
-.work-thumb::before {
-  left: 0;
-  bottom: 0;
-  display: inline-block;
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
 }
 
 /*============ team-social
