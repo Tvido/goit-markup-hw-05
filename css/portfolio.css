@@ -347,7 +347,6 @@ img {
   transition: 500ms;
 }
 
-
 .cargo-thumb {
   position: relative;
 }
@@ -394,8 +393,6 @@ img {
 
   background-color: #fff;
   z-index: 2;
-}
-  transition: 500ms;
 }
 
 /****************** footer 
