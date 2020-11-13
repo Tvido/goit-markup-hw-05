@@ -183,11 +183,15 @@ img {
   background: var(--accent-cl);
   border-radius: 2px;
   transition-duration: 1000ms;
+<<<<<<< HEAD
 }
 
 .contacts-item {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+=======
+
+>>>>>>> d92b1a4f680f27e62be4566cf14913970532e8ca
 }
 
 .contacts-item-svg {
