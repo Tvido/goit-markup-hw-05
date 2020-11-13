@@ -398,8 +398,9 @@ img {
   transition: 500ms;
 }
 
-/************ footer 
-*************************/
+/****************** footer 
+*******************************/
+
 .wide {
   display: flex;
 }
@@ -427,21 +428,9 @@ img {
   font-style: normal;
 }
 
-/* .link-item {
-  transition: 2550ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-item:hover {
-  transition: 2550ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 .mapp {
   display: inline-block;
   margin-top: 20px;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address .link {
@@ -455,6 +444,8 @@ img {
   font-family: inherit;
   color: var(--primary-white-color);
   text-decoration: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address .contact {
   display: block;
