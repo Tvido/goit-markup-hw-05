@@ -178,6 +178,8 @@ img {
 
   background: var(--accent-cl);
   border-radius: 2px;
+  transition-duration: 1000ms;
+
 }
 
 .contacts-item-svg {
