@@ -8,7 +8,7 @@
   /* первинний коліт тексту/навігація */
   --primary-text-color: #757575;
   /* додатковий коліт тексту */
-  --secondary-text-color: #212121;
+    --secondary-text-color: #212121;
   /* акцент для кнопок і навігації */
   --accent-cl: #2196f3;
   /* додатковий колір темного фону */
@@ -167,7 +167,7 @@ img {
 
 .site-nav-item {
   position: relative;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
 }
 
 .current:hover::after,
